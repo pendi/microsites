@@ -1,0 +1,31 @@
+{
+  "name": "microsites",
+  "version": "0.0.1",
+  "description": "Mircosite of Products",
+  "main": "index.html",
+  "keywords": [
+    "microsite",
+    "html",
+    "naked",
+    "js",
+    "t-shirt"
+  ],
+  "authors": [
+    "Ali <muhammad.ali@xinix.co.id>"
+  ],
+  "license": "Commercial",
+  "homepage": "http://xinix.co.id",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+     "naked-css": "1.0.x",
+     "owl": "OwlFonk/OwlCarousel",
+     "jacket-awesome": "https://github.com/xinix-technology/jacket-awesome.git#~0.0.1",
+     "jquery": "~2.1.4"
+   }
+}

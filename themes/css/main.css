@@ -1,0 +1,98 @@
+body { margin: 0; }
+h1,h2,h3,h4,h5,h6 { margin: 0; }
+.hide { display: none!important; }
+
+.container-fluid { background: url(../img/background_footer.png) center bottom 0 no-repeat #fff; }
+.navArea { background: url(../img/navBg.png) center repeat; position: fixed; top: 0; left: 0; right: 0; z-index: 3; }
+.navArea .nav { list-style: none; padding: 0; margin: 0; }
+.navArea li { display: inline-block; padding: 5px 30px; vertical-align: middle; text-align: center; }
+.navArea li a { color: #fff; font-size: 1.2em; display: inline-block; line-height: 120%; }
+.navArea .logo { line-height: 100%; }
+.navArea .logo a { background: url(../img/xinix-logo.png) center no-repeat; text-indent: -6666em; width: 50px; background-size: contain; }
+
+.heroBanner { position: relative; border-bottom: 1px solid #ddd; background: url(../img/background_head.png) center 0 no-repeat #fff; }
+.heroContent { padding: 60px; }
+.banner,
+.bannerInfo { display: inline-block; vertical-align: middle; }
+.banner { width: 52%; position: relative; height: 400px; }
+.banner img { width: 100%; height: auto; display: table; }
+.bannerInfo { width: 47%; padding-left: 60px; }
+.logoArea { display: table-cell; vertical-align: middle; }
+.logoArea .logo { display: inline-block; width: 180px; height: 200px; }
+.infoArea { display: table-cell; vertical-align: middle; padding-left: 30px; }
+.bannerInfo h1,
+.bannerInfo h3 { line-height: 130%; font-weight: 300; letter-spacing: 0.3pt; }
+.bannerInfo h1 { font-size: 3.4em; margin-bottom: 20px; color: #0096C9; line-height: 110%; }
+.bannerInfo h3 { color: #666; font-size: 1.6em; }
+.downloadArea { margin-top: 30px; padding-top: 30px; border-top: 1px solid #ddd; }
+.downloadArea p { margin: 0 0 10px; font-size: 0.9em; text-transform: uppercase; color: #ff9500; font-weight: 600; }
+.downloadArea ul li { margin-right: 30px; padding-right: 30px; border-right: 1px solid #444; }
+.downloadArea ul li:last-child { margin-right: 0; padding-right: 0; border-right: 0; }
+.downloadArea a { 
+	font-size: 1.4em; font-weight: 300; color: #444; 
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.downloadArea a:hover { color: #08c; }
+.downloadArea a i { margin-right: 10px; }
+
+.featuresArea { padding: 60px; }
+.featuresArea .thumb { margin: 0; padding: 0 45px; text-align: center; }
+.featuresArea .imageArea { 
+	width: 120px; height: 120px; margin: 0 auto 15px; background: #08c;
+	-webkit-border-radius: 100%;	
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+}
+.featuresArea .imageArea.blue { background: #4bc2f4; }
+.featuresArea .imageArea.orange { background: #ff9500; }
+.featuresArea .imageArea.yellow { background: #FAC521; }
+.featuresArea .imageArea.green { background: #16b716; }
+.featuresArea .imageArea.red { background: #f21c45; }
+.featuresArea .imageArea .xn { font-size: 4em; line-height: 120px; color: #fff; }
+.featuresArea .title { color: #ff9500; letter-spacing: 0.3pt; margin-bottom: 15px; }
+.featuresArea p { margin: 0; letter-spacing: 0.3pt; font-size: 1.2em; font-weight: 300; }
+
+.footer { border-top: 1px solid #ddd; padding: 20px 30px; }
+.footer .logo { background: url(../img/xinix-logo.png) center no-repeat; display: block; width: 53px; height: 35px; background-size: contain; vertical-align: middle; margin: 0 auto 10px; }
+.footer h6 { font-size: 1em; color: #999; letter-spacing: 0.3pt; text-align: center; }
+.footer h6 a { color: #444; }
+
+
+.mac { background: url(../img/dev-mac.png) center no-repeat; background-size: contain; position: absolute; top: 0; right: 0; left: 0; bottom: 0; padding: 32px 107px 63px 108px; width: 700px; }
+.mac .image { display: inline-block; width: 100%; height: 100%; border: 1px solid #999; }
+.tab { background: url(../img/dev-tab-lansc.png) center no-repeat; background-size: contain; position: absolute; right: 0; bottom: 10px; width: 390px; height: 300px; padding: 30px 37px 30px 34px; }
+.tab .image { display: inline-block; width: 100%; height: 100%; border: 1px solid #999; }
+.iphone { background: url(../img/dev-iphone.png) center no-repeat; background-size: contain; position: absolute; right: 29%; bottom: 0; width: 127px; height: 260px; padding: 37px 11px 37px 11px; }
+.iphone .image { display: inline-block; width: 100%; height: 100%; border: 1px solid #999; }
+.android { background: url(../img/dev-android.png) center no-repeat; background-size: contain; position: absolute; right: 44%; bottom: 0; width: 140px; height: 260px; padding: 29px 10px 30px 10px; }
+.android .image { display: inline-block; width: 100%; height: 100%; border: 1px solid #999; }
+
+.mobileDevice .tab { width: 520px; height: 400px; padding: 40px 50px 40px 45px; bottom: 0; right: 50%; margin-right: -260px; }
+.mobileDevice .iphone { width: 153px; height: 320px; padding: 46px 12px 45px 11px; right: 50px; bottom: -10px; }
+.mobileDevice .android { width: 165px; height: 320px; padding: 37px 8px 37px 9px; left: 50px; bottom: -10px; }
+
+
+.banner.mobileOnly { width: 40%; }
+.bannerInfo.mobileOnly { width: 59%; }
+.mobileOnly .iphone { width: 191px; height: 400px; padding: 58px 15px 57px 14px; right: 10%; bottom: 0; }
+.mobileOnly .android { width: 207px; height: 400px; padding: 44px 10px 46px 11px; right: 30%; bottom: 0; }
+
+
+.owl-buttons .owl-prev,
+.owl-buttons .owl-next { position: absolute; top: 50%; margin-top: -53px; }
+.owl-buttons .owl-prev { left: -40px; }
+.owl-buttons .owl-next { right: -40px; }
+.arrow { width: 40px; height: 106px; display: inline-block; }
+.arrow.left { background: url(../img/arrow-left.png) center no-repeat; background-size: contain; }
+.arrow.right { background: url(../img/arrow-right.png) center no-repeat; background-size: contain; }
+
+
+
+
+

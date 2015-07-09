@@ -1,0 +1,19 @@
+{
+  "name": "Xin",
+  "license": "Commercial",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://tig@tig.dev.xinix.co.id:22033/dwan/web-hive.git"
+  },
+  "description": "SPA Framework",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*"
+  }
+}
